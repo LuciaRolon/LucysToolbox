@@ -1,0 +1,8 @@
+## Title: Lucy's Toolbox
+## Notes: Add new Settings into the game for further customization!
+## SavedVariables: LucysDB
+## Interface: 16001
+## Version: 0.1
+
+SpellCoefficients.lua
+LucysToolbox.lua
