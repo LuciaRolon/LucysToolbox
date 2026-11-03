@@ -5651,13 +5651,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 108,
-                kind = "unknown",
-            },
-            [1] = {
-                coefficient = 1,
-                effectType = 6,
-                auraType = 108,
+                auraType = 50,
                 kind = "unknown",
             },
         },
@@ -12263,7 +12257,7 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 108,
+                auraType = 4,
                 kind = "unknown",
             },
         },
@@ -12587,6 +12581,17 @@ LucysSpellCoefficients = {
                 coefficient = 1,
                 effectType = 58,
                 auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [11426] = {
+        schoolMask = 16,
+        effects = {
+            [2] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 108,
                 kind = "unknown",
             },
         },
@@ -14506,6 +14511,39 @@ LucysSpellCoefficients = {
             },
         },
     },
+    [13031] = {
+        schoolMask = 16,
+        effects = {
+            [2] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 108,
+                kind = "unknown",
+            },
+        },
+    },
+    [13032] = {
+        schoolMask = 16,
+        effects = {
+            [2] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 108,
+                kind = "unknown",
+            },
+        },
+    },
+    [13033] = {
+        schoolMask = 16,
+        effects = {
+            [2] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 108,
+                kind = "unknown",
+            },
+        },
+    },
     [13044] = {
         schoolMask = 1,
         effects = {
@@ -15298,7 +15336,7 @@ LucysSpellCoefficients = {
             [2] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -15936,7 +15974,7 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -17902,7 +17940,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -18057,7 +18095,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
             [1] = {
@@ -18198,7 +18236,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
             [1] = {
@@ -19931,6 +19969,12 @@ LucysSpellCoefficients = {
                 auraType = 108,
                 kind = "unknown",
             },
+            [2] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
         },
     },
     [16039] = {
@@ -20192,6 +20236,12 @@ LucysSpellCoefficients = {
                 kind = "unknown",
             },
             [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
+            [2] = {
                 coefficient = 1,
                 effectType = 6,
                 auraType = 107,
@@ -20904,7 +20954,7 @@ LucysSpellCoefficients = {
             [2] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -26563,12 +26613,6 @@ LucysSpellCoefficients = {
                 auraType = 108,
                 kind = "unknown",
             },
-            [1] = {
-                coefficient = 1,
-                effectType = 6,
-                auraType = 108,
-                kind = "unknown",
-            },
         },
     },
     [17919] = {
@@ -29883,12 +29927,6 @@ LucysSpellCoefficients = {
                 auraType = 137,
                 kind = "unknown",
             },
-            [1] = {
-                coefficient = 1,
-                effectType = 6,
-                auraType = 137,
-                kind = "unknown",
-            },
         },
     },
     [18703] = {
@@ -33085,7 +33123,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -35094,7 +35132,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 42,
+                auraType = 4,
                 kind = "unknown",
             },
         },
@@ -35114,7 +35152,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.449999988,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35131,7 +35169,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35515,7 +35553,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35532,7 +35570,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35549,7 +35587,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35566,7 +35604,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35583,7 +35621,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35600,7 +35638,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -35617,7 +35655,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.5,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -36544,7 +36582,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.449999988,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -36561,7 +36599,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.449999988,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -36578,7 +36616,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.449999988,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -36595,7 +36633,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.449999988,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -37018,7 +37056,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -37462,18 +37500,6 @@ LucysSpellCoefficients = {
                 auraType = 133,
                 kind = "unknown",
             },
-            [1] = {
-                coefficient = 1,
-                effectType = 6,
-                auraType = 54,
-                kind = "unknown",
-            },
-            [2] = {
-                coefficient = 1,
-                effectType = 6,
-                auraType = 55,
-                kind = "unknown",
-            },
         },
     },
     [20552] = {
@@ -37739,6 +37765,28 @@ LucysSpellCoefficients = {
             },
         },
     },
+    [20575] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
+        },
+    },
+    [20576] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
+        },
+    },
     [20577] = {
         schoolMask = 1,
         effects = {
@@ -37779,7 +37827,7 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 31,
+                auraType = 129,
                 kind = "unknown",
             },
         },
@@ -38128,7 +38176,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
             [1] = {
@@ -38257,7 +38305,7 @@ LucysSpellCoefficients = {
             [2] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -41406,6 +41454,17 @@ LucysSpellCoefficients = {
             },
         },
     },
+    [21563] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
     [21566] = {
         schoolMask = 1,
         effects = {
@@ -42828,17 +42887,6 @@ LucysSpellCoefficients = {
                 coefficient = 1,
                 effectType = 6,
                 auraType = 12,
-                kind = "unknown",
-            },
-        },
-    },
-    [21987] = {
-        schoolMask = 32,
-        effects = {
-            [0] = {
-                coefficient = 1,
-                effectType = 58,
-                auraType = 0,
                 kind = "unknown",
             },
         },
@@ -45201,7 +45249,7 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
             [2] = {
@@ -45252,7 +45300,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -47929,6 +47977,12 @@ LucysSpellCoefficients = {
                 auraType = 22,
                 kind = "unknown",
             },
+            [3] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 674,
+                kind = "unknown",
+            },
         },
     },
     [23175] = {
@@ -48614,7 +48668,7 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -48631,7 +48685,7 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -51192,7 +51246,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
             [1] = {
@@ -55962,7 +56016,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
             [1] = {
@@ -58315,7 +58369,7 @@ LucysSpellCoefficients = {
         effects = {
             [0] = {
                 coefficient = 1,
-                effectType = 35,
+                effectType = 65,
                 auraType = 290,
                 kind = "unknown",
             },
@@ -58455,7 +58509,7 @@ LucysSpellCoefficients = {
         effects = {
             [0] = {
                 coefficient = 1,
-                effectType = 35,
+                effectType = 65,
                 auraType = 290,
                 kind = "unknown",
             },
@@ -59850,7 +59904,7 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -61121,17 +61175,6 @@ LucysSpellCoefficients = {
             },
         },
     },
-    [25713] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
     [25716] = {
         schoolMask = 1,
         effects = {
@@ -61202,94 +61245,6 @@ LucysSpellCoefficients = {
                 effectType = 3,
                 auraType = 0,
                 kind = "unknown",
-            },
-        },
-    },
-    [25735] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
-    [25736] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
-    [25737] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
-    [25738] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
-    [25739] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
-    [25740] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
-    [25741] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
-            },
-        },
-    },
-    [25742] = {
-        schoolMask = 2,
-        effects = {
-            [0] = {
-                coefficient = 0.100000001,
-                effectType = 2,
-                auraType = 0,
-                kind = "damage",
             },
         },
     },
@@ -61621,6 +61576,12 @@ LucysSpellCoefficients = {
                 auraType = 87,
                 kind = "unknown",
             },
+            [4] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 10,
+                kind = "unknown",
+            },
         },
     },
     [25782] = {
@@ -61888,7 +61849,7 @@ LucysSpellCoefficients = {
         schoolMask = 8,
         effects = {
             [0] = {
-                coefficient = 1,
+                coefficient = 0.25999999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -71947,6 +71908,12 @@ LucysSpellCoefficients = {
             [1] = {
                 coefficient = 1,
                 effectType = 6,
+                auraType = 4,
+                kind = "unknown",
+            },
+            [2] = {
+                coefficient = 1,
+                effectType = 6,
                 auraType = 107,
                 kind = "unknown",
             },
@@ -72594,7 +72561,7 @@ LucysSpellCoefficients = {
             [2] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -73501,6 +73468,17 @@ LucysSpellCoefficients = {
                 coefficient = 1,
                 effectType = 6,
                 auraType = 107,
+                kind = "unknown",
+            },
+        },
+    },
+    [57596] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 58,
+                auraType = 0,
                 kind = "unknown",
             },
         },
@@ -74672,7 +74650,7 @@ LucysSpellCoefficients = {
         schoolMask = 64,
         effects = {
             [0] = {
-                coefficient = 0.713999987,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -75064,6 +75042,12 @@ LucysSpellCoefficients = {
         schoolMask = 1,
         effects = {
             [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 108,
+                kind = "unknown",
+            },
+            [1] = {
                 coefficient = 1,
                 effectType = 6,
                 auraType = 108,
@@ -75468,7 +75452,7 @@ LucysSpellCoefficients = {
         schoolMask = 4,
         effects = {
             [0] = {
-                coefficient = 0.214000002,
+                coefficient = 0.143000007,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -75479,7 +75463,7 @@ LucysSpellCoefficients = {
         schoolMask = 4,
         effects = {
             [0] = {
-                coefficient = 0.214000002,
+                coefficient = 0.143000007,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -75490,7 +75474,7 @@ LucysSpellCoefficients = {
         schoolMask = 4,
         effects = {
             [0] = {
-                coefficient = 0.214000002,
+                coefficient = 0.143000007,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -75501,7 +75485,7 @@ LucysSpellCoefficients = {
         schoolMask = 4,
         effects = {
             [0] = {
-                coefficient = 0.214000002,
+                coefficient = 0.143000007,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -75512,7 +75496,7 @@ LucysSpellCoefficients = {
         schoolMask = 4,
         effects = {
             [0] = {
-                coefficient = 0.214000002,
+                coefficient = 0.143000007,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -78869,6 +78853,12 @@ LucysSpellCoefficients = {
                 auraType = 4,
                 kind = "unknown",
             },
+            [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 4,
+                kind = "unknown",
+            },
         },
     },
     [431655] = {
@@ -81419,7 +81409,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
             [1] = {
@@ -81936,7 +81926,7 @@ LucysSpellCoefficients = {
             [2] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -82932,7 +82922,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.0500000008,
+                coefficient = 0.0799999982,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -95378,11 +95368,22 @@ LucysSpellCoefficients = {
             },
         },
     },
+    [1239570] = {
+        schoolMask = 2,
+        effects = {
+            [1] = {
+                coefficient = 0.0799999982,
+                effectType = 6,
+                auraType = 43,
+                kind = "unknown",
+            },
+        },
+    },
     [1239696] = {
         schoolMask = 64,
         effects = {
             [0] = {
-                coefficient = 0.713999987,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -95393,7 +95394,7 @@ LucysSpellCoefficients = {
         schoolMask = 64,
         effects = {
             [0] = {
-                coefficient = 0.713999987,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -95404,7 +95405,7 @@ LucysSpellCoefficients = {
         schoolMask = 64,
         effects = {
             [0] = {
-                coefficient = 0.713999987,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -95415,7 +95416,7 @@ LucysSpellCoefficients = {
         schoolMask = 64,
         effects = {
             [0] = {
-                coefficient = 0.713999987,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -97171,13 +97172,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 110,
-                kind = "unknown",
-            },
-            [1] = {
-                coefficient = 1,
-                effectType = 6,
-                auraType = 88,
+                auraType = 4,
                 kind = "unknown",
             },
         },
@@ -97216,7 +97211,13 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 290,
+                auraType = 54,
+                kind = "unknown",
+            },
+            [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 55,
                 kind = "unknown",
             },
         },
@@ -98128,13 +98129,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 31,
-                kind = "unknown",
-            },
-            [1] = {
-                coefficient = 1,
-                effectType = 6,
-                auraType = 172,
+                auraType = 4,
                 kind = "unknown",
             },
         },
@@ -98945,7 +98940,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [1] = {
-                coefficient = 0.0949999988,
+                coefficient = 0.0419999994,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -98956,7 +98951,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [1] = {
-                coefficient = 0.0949999988,
+                coefficient = 0.0419999994,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -98967,7 +98962,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [1] = {
-                coefficient = 0.0949999988,
+                coefficient = 0.0419999994,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -98978,7 +98973,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [1] = {
-                coefficient = 0.0949999988,
+                coefficient = 0.0419999994,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -98989,7 +98984,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [1] = {
-                coefficient = 0.0949999988,
+                coefficient = 0.0419999994,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -99000,7 +98995,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.0949999988,
+                coefficient = 0.0419999994,
                 effectType = 6,
                 auraType = 4,
                 kind = "unknown",
@@ -99395,7 +99390,7 @@ LucysSpellCoefficients = {
             [0] = {
                 coefficient = 1,
                 effectType = 6,
-                auraType = 22,
+                auraType = 674,
                 kind = "unknown",
             },
         },
@@ -101962,12 +101957,7 @@ LucysSpellCoefficients = {
                 auraType = 174,
                 kind = "unknown",
             },
-        },
-    },
-    [1311085] = {
-        schoolMask = 1,
-        effects = {
-            [0] = {
+            [1] = {
                 coefficient = 1,
                 effectType = 6,
                 auraType = 107,
@@ -102111,7 +102101,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.449999988,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -102139,7 +102129,7 @@ LucysSpellCoefficients = {
         schoolMask = 2,
         effects = {
             [0] = {
-                coefficient = 0.449999988,
+                coefficient = 0.42899999,
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
@@ -103180,6 +103170,372 @@ LucysSpellCoefficients = {
                 effectType = 2,
                 auraType = 0,
                 kind = "damage",
+            },
+        },
+    },
+    [1325714] = {
+        schoolMask = 1,
+        effects = {
+            [1] = {
+                coefficient = 1,
+                effectType = 77,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1325717] = {
+        schoolMask = 1,
+        effects = {
+            [1] = {
+                coefficient = 1,
+                effectType = 77,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1325975] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 3,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1325994] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 252,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1325995] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 252,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1325996] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 252,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1325997] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 252,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1326047] = {
+        schoolMask = 4,
+        effects = {
+            [0] = {
+                coefficient = 0.713999987,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+            [1] = {
+                coefficient = 0.713999987,
+                effectType = 3,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1326053] = {
+        schoolMask = 16,
+        effects = {
+            [1] = {
+                coefficient = 0.270999998,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+        },
+    },
+    [1326054] = {
+        schoolMask = 16,
+        effects = {
+            [1] = {
+                coefficient = 0.270999998,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+        },
+    },
+    [1326055] = {
+        schoolMask = 16,
+        effects = {
+            [1] = {
+                coefficient = 0.270999998,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+        },
+    },
+    [1326079] = {
+        schoolMask = 64,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+        },
+    },
+    [1326080] = {
+        schoolMask = 64,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+        },
+    },
+    [1326081] = {
+        schoolMask = 64,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+        },
+    },
+    [1326082] = {
+        schoolMask = 64,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+        },
+    },
+    [1326084] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 4,
+                kind = "unknown",
+            },
+        },
+    },
+    [1326619] = {
+        schoolMask = 8,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 329,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1326891] = {
+        schoolMask = 16,
+        effects = {
+            [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 108,
+                kind = "unknown",
+            },
+        },
+    },
+    [1327241] = {
+        schoolMask = 32,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 165,
+                auraType = 0,
+                kind = "unknown",
+            },
+            [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 33,
+                kind = "unknown",
+            },
+        },
+    },
+    [1327245] = {
+        schoolMask = 8,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 165,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1327248] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 165,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1327251] = {
+        schoolMask = 32,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 165,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328370] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
+            [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328546] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 232,
+                kind = "unknown",
+            },
+            [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 232,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328618] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 2,
+                auraType = 0,
+                kind = "damage",
+            },
+            [1] = {
+                coefficient = 1,
+                effectType = 3,
+                auraType = 0,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328621] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 4,
+                kind = "unknown",
+            },
+            [1] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 4,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328825] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 4,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328826] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328827] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 107,
+                kind = "unknown",
+            },
+        },
+    },
+    [1328829] = {
+        schoolMask = 1,
+        effects = {
+            [0] = {
+                coefficient = 1,
+                effectType = 6,
+                auraType = 4,
+                kind = "unknown",
             },
         },
     },

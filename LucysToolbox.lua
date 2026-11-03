@@ -263,6 +263,20 @@ local nameCVars = {
     "UnitNameFriendlyPlayerName",
     "UnitNameEnemyPlayerName",
     "UnitNameOwn",
+    "UnitNameEnemyGuardianName",
+    "UnitNameEnemyMinionName",
+    "UnitNameEnemyPetName",
+    "UnitNameEnemyTotemName",
+    "UnitNameFocused",
+    "UnitNameFriendlyGuardianName",
+    "UnitNameFriendlyMinionName",
+    "UnitNameFriendlyPetName",
+    "UnitNameFriendlySpecialNPCName",
+    "UnitNameFriendlyTotemName",
+    "UnitNameHostleNPC",
+    "UnitNameInteractiveNPC",
+    "UnitNameNonCombatCreatureName",
+    "UnitNameNPC"
 }
 
 local savedValues = {}
