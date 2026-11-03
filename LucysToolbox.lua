@@ -53,6 +53,7 @@ function InitializeSettings()
     newBooleanAddonSetting(addonName, LucysDB, category, false, "showSpellCoefficient", "Show Spell Coefficients", "Shows the Spell Power Coefficient in the tooltip for certain spells and effects. Note: The damage bonus shown is only calculated from coefficient vs. spell power. Other effects like Talents or unique items are not included.")
 
     layout:AddInitializer(CreateSettingsListSectionHeaderInitializer("Visuals"))
+    newBooleanAddonSetting(addonName, LucysDB, category, true, "hideNamesOnHideUI", "Screenshot Mode", "Hides all names when the UI is hidden.")
     newBooleanSetting(addonName, LucysDB, category, "giquality", "indLight", "Indirect Lighting", "Allows indirect lighting. Disabling this will increase performance but the game will look much darker.")
     newSliderSetting(addonName, LucysDB, category, "groundEffectDensity", "groundDensity", "Ground Effect Density", "Adds more density to certain ground effects like grass.", 16, 256, 1)
     newSliderSetting(addonName, LucysDB, category, "groundEffectDist", "groundDist", "Ground Effect Distance", "Set the maximum distance from the player at which to render ground effects such as ferns, flowers, grass, and rocks.", 32, 600, 1)
@@ -193,14 +194,20 @@ local function GetEffectBonus(spellID, effectIndex)
     local kind = effect.kind
 
     if kind == "healing" or kind == "periodic_healing" then
-        return GetSpellBonusHealing() * coefficient
+        local bonusHealing = GetSpellBonusHealing()
+        if issecretvalue(bonusHealing) then
+            return nil
+        end
+        return bonusHealing * coefficient
     end
 
     if kind == "damage" or kind == "periodic_damage" then
         local spellPower = GetSpellPowerFromMask(
             spellData.schoolMask
         )
-
+        if issecretvalue(spellPower) then
+            return nil
+        end
         if spellPower then
             return spellPower * coefficient
         end
@@ -210,6 +217,9 @@ local function GetEffectBonus(spellID, effectIndex)
 end
 
 local function AddSpellCoefficient(tooltip, data)
+    if issecretvalue(data.id) then
+        return
+    end
     local spellData = LucysSpellCoefficients[data.id]
 
     if not spellData then
@@ -248,14 +258,78 @@ end
 
 --#endregion
 
+--#region Screenshot Mode
+local nameCVars = {
+    "UnitNameFriendlyPlayerName",
+    "UnitNameEnemyPlayerName",
+    "UnitNameOwn",
+}
+
+local savedValues = {}
+local namesHidden = false
+
+local function HidePlayerNames()
+    if not LucysDB.hideNamesOnHideUI then
+        return
+    end
+
+    if namesHidden then
+        return
+    end
+
+    if InCombatLockdown() then
+        return
+    end
+
+    for _, cvar in ipairs(nameCVars) do
+        local originalValue = C_CVar.GetCVar(cvar)
+
+        if originalValue ~= nil then
+            savedValues[cvar] = originalValue
+            C_CVar.SetCVar(cvar, "0")
+        end
+    end
+
+    namesHidden = true
+end
+
+local function RestorePlayerNames()
+    if not LucysDB.hideNamesOnHideUI then
+        return
+    end
+
+    if not namesHidden then
+        return
+    end
+
+    if InCombatLockdown() then
+        return
+    end
+
+    for cvar, value in pairs(savedValues) do
+        C_CVar.SetCVar(cvar, value)
+    end
+
+    savedValues = {}
+    namesHidden = false
+end
+
+UIParent:HookScript("OnHide", HidePlayerNames)
+UIParent:HookScript("OnShow", RestorePlayerNames)
+--#endregion
+
+
 function InitializeTooltipProcessors()
     TooltipDataProcessor.AddTooltipPostCall(
         Enum.TooltipDataType.Item,
         function(tooltip, data)
+            if issecretvalue(data) or issecretvalue(tooltip) then
+                return
+            end
             if LucysDB.showItemID then
                 local itemID = data.id
 
-                if not itemID then
+                if not itemID or issecretvalue(itemID) then
                     return
                 end
 
@@ -271,6 +345,9 @@ function InitializeTooltipProcessors()
         Enum.TooltipDataType.Spell,
         function(tooltip, data)
             if LucysDB.showSpellCoefficient then
+                if issecretvalue(data) or issecretvalue(tooltip) then
+                    return
+                end
                 AddSpellCoefficient(tooltip, data)
             end
         end
